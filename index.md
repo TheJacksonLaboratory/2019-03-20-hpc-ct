@@ -10,8 +10,8 @@ humandate: "Mar 20, 2019"
 humantime: "9:00 am - 3:00 pm"
 startdate: 2019-03-20
 enddate: 2019-03-20
-instructors: ["Jason Macklin", "David McKenzie"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Shane Sanders", "TBD"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+instructors: ["Jason Macklin", "David McKenzie"]
+helper: ["Shane Sanders", "TBD"] 
 email: ["jason.macklin@jax.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite: 57101708748
