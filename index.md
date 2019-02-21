@@ -10,8 +10,8 @@ humandate: "Mar 20, 2019"
 humantime: "9:00 am - 3:00 pm"
 startdate: 2019-03-20
 enddate: 2019-03-20
-instructor: ["FIXME"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+instructors: ["Jason Macklin", "David McKenzie"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Shane Sanders", "TBD"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["jason.macklin@jax.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite: 57101708748
@@ -210,7 +210,7 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 <tr> <td>10:45</td>  <td><a href="https://swcarpentry.github.io/shell-novice/03-create/index.html">Working With Files and Directories (continued)</a></td> </tr>
 <tr> <td>11:05</td>  <td><a href="https://swcarpentry.github.io/shell-novice/04-pipefilter/index.html">Pipes and Filters</a></td> </tr>
 <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-<tr> <td>13:00</td>  <td>JAX Cluster Resources</td> </tr>
+<tr> <td>13:00</td>  <td>Introduction to JAX High Performance Computing</td> </tr>
 <tr> <td>14:45</td>  <td><a href="https://www.surveymonkey.com/r/XDHJ6S5">Post-workshop survey</a> </td> </tr>
 <tr> <td>15:00</td>  <td>END</td> </tr>
 </table>
