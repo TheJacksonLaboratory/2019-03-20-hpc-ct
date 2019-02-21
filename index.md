@@ -7,14 +7,14 @@ country: "us"
 language: "en"
 latlng: "41.732433,-72.79360"
 humandate: "Mar 20, 2019"
-humantime: "9:00 am - 4:30 pm"
+humantime: "9:00 am - 3:00 pm"
 startdate: 2019-03-20
 enddate: 2019-03-20
 instructor: ["FIXME"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["susan.mcclatchy@jax.org"]
+email: ["jason.macklin@jax.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite: 57101708748
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -123,8 +123,8 @@ SPECIAL REQUIREMENTS
 Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+  <strong>Requirements:</strong> This workshop is only open to JAX employees. Participants must bring a laptop with a
+  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.). They should have a few specific software packages installed (listed <a href="#setup">below</a>).
 </p>
 
 {% comment%}
@@ -186,22 +186,6 @@ Display the contact email address set in the configuration file.
 
 <hr/>
 
-{% comment %} 
-SURVEYS - DO NOT EDIT SURVEY LINKS 
-{% endcomment %}
-<h2 id="surveys">Surveys</h2>
-<p>Please be sure to complete these surveys before and after the workshop.</p>
-{% if site.carpentry == "swc" %} 
-<p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif site.carpentry == "dc" %}
-<p><a href="{{ site.dc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif site.carpentry == "lc" %}
-<p><a href="{{ site.lc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.lc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% endif %}
-
 <hr/>
 
 
@@ -227,10 +211,8 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 <tr> <td>11:05</td>  <td><a href="https://swcarpentry.github.io/shell-novice/04-pipefilter/index.html">Pipes and Filters</a></td> </tr>
 <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
 <tr> <td>13:00</td>  <td>JAX Cluster Resources</td> </tr>
-<tr> <td>14:30</td>  <td>Coffee</td> </tr>
-<tr> <td>14:45</td>  <td>JAX Cluster Resources (continued) </td> </tr>
-<tr> <td>15:45</td>  <td><a href="https://www.surveymonkey.com/r/XDHJ6S5">Post-workshop survey</a> </td> </tr>
-<tr> <td>16:00</td>  <td>END</td> </tr>
+<tr> <td>14:45</td>  <td><a href="https://www.surveymonkey.com/r/XDHJ6S5">Post-workshop survey</a> </td> </tr>
+<tr> <td>15:00</td>  <td>END</td> </tr>
 </table>
 </div>
 </div>
@@ -273,13 +255,17 @@ please preview your site before committing, and make sure to run
 {% endcomment %}
 <h2 id="syllabus">Syllabus</h2>
 
-{% if page.carpentry == "swc" %}
-{% include sc/syllabus.html %}
-{% elsif page.carpentry == "dc" %}
-{% include dc/syllabus.html %}
-{% elsif page.carpentry == "lc" %}
-{% include lc/syllabus.html %}
-{% endif %}
+<div class="row">
+<div class="col-md-6">
+<h3 id="syllabus-shell">The Unix Shell</h3>
+<ul>
+<li>Files and directories</li>
+<li>History and tab completion</li>
+<li>Pipes and redirection</li>
+<li><a href="{{site.swc_pages}}/shell-novice/reference">Reference...</a></li>
+</ul>
+</div>
+
 
 <hr/>
 
