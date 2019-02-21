@@ -265,7 +265,7 @@ please preview your site before committing, and make sure to run
 <li><a href="{{site.swc_pages}}/shell-novice/reference">Reference...</a></li>
 </ul>
 </div>
-
+</div>
 
 <hr/>
 
@@ -338,6 +338,7 @@ machine is set up differently you can run it by opening a
 terminal and typing <code>bash</code>.  There is no need to
 install anything.
 </p>
+</div>
 </div>
 </div> {% comment %} End of 'shell' section. {% endcomment %}
 
