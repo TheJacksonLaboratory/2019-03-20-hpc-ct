@@ -10,9 +10,9 @@ humandate: "Mar 20, 2019"
 humantime: "9:00 am - 3:00 pm"
 startdate: 2019-03-20
 enddate: 2019-03-20
-instructor: ["Jason Macklin", "David McKenzie"] 
+instructor: ["Jason Macklin", "David McKenzie"]
 helper: ["Shane Sanders", "TBD"] 
-email: ["jason.macklin@jax.org"]
+email: ["jason.macklin@jax.org", "susan.mcclatchy@jax.org"]
 collaborative_notes: https://pad.carpentries.org/2019-03-20-hpc-ct
 eventbrite: 57101708748
 ---
@@ -131,7 +131,7 @@ Modify the block below if there are any special requirements.
 CODE OF CONDUCT
 {% endcomment %}
 <p id="code-of-conduct">
-<strong>Code of Conduct:</strong>  Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. This document also outlines how to report an incident if needed.
+<strong>Code of Conduct:</strong>  Everyone who participates is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. 
 </p>
 
 
