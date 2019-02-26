@@ -13,7 +13,7 @@ enddate: 2019-03-20
 instructors: ["Jason Macklin", "David McKenzie"]
 helper: ["Shane Sanders", "TBD"] 
 email: ["jason.macklin@jax.org"]
-collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+collaborative_notes: https://pad.carpentries.org/2019-03-20-hpc-ct
 eventbrite: 57101708748
 ---
 
