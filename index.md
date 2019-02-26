@@ -10,7 +10,7 @@ humandate: "Mar 20, 2019"
 humantime: "9:00 am - 3:00 pm"
 startdate: 2019-03-20
 enddate: 2019-03-20
-instructors: ["Jason Macklin", "David McKenzie"]
+instructors: ["Jason Macklin", "David McKenzie"] 
 helper: ["Shane Sanders", "TBD"] 
 email: ["jason.macklin@jax.org"]
 collaborative_notes: https://pad.carpentries.org/2019-03-20-hpc-ct
